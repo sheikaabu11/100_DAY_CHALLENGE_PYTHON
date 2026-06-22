@@ -14,8 +14,8 @@ while True:
         print("Calculator Closed")
         break
 
-    num1 = float(input("enter first Number"))
-    num2 = float(input("enter second Number"))
+    num1 = float(input("enter first Number : " ))
+    num2 = float(input("enter second Number : "))
 
     if choice == 1:
         print("Result : ",num1+num2)
